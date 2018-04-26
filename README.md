@@ -8,9 +8,13 @@ The script identifies all the names of journals stored in the database and then 
 
 The script is not case-sensitive, but it is sensitive to variations in typing. My suggestion is to use the script to identify these small variations, correct it manually (good to keep your library organized) and then run again.
 
+The script only considers the "publication" field, which is only valid for "journal articles".
+
 # How to use
 
 Save the py file in the same folder as the zotero.sqlite file and run it. It depends on some python libraries, but nothing special.
+
+Zotero should be closed when you run the script, otherwise the database will be locked.
 
 # To-do list
 
