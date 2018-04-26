@@ -4,10 +4,15 @@ A common advice for those starting to publich academic papers is to go for the j
 
 The script identifies all the names of journals stored in the database and then counts how many items you have for each journal title.
 
-#Limitations
+# Limitations
 
 The script is not case-sensitive, but it is sensitive to variations in typing. My suggestion is to use the script to identify these small variations, correct it manually (good to keep your library organized) and then run again.
 
-#How to use
+# How to use
 
 Save the py file in the same folder as the zotero.sqlite file and run it. It depends on some python libraries, but nothing special.
+
+# To-do list
+
+- Add the possibility to serach the most frequent author, publisher, etc.
+- Reduce the sensitivity to small variations in the strings (do not know how though)
