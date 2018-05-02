@@ -12,7 +12,7 @@ The script only considers the "publication" field, which is only valid for "jour
 
 # How to use
 
-Save the py file in the same folder as the zotero.sqlite file and run it. It depends on some python libraries, but nothing special.
+Save the py file in the same folder as the zotero.sqlite file and run it. It depends on python-tk and sqlite3 libraries.
 
 Zotero should be closed when you run the script, otherwise the database will be locked.
 
