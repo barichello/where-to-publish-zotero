@@ -1,4 +1,5 @@
-from tkinter import *
+import Tkinter
+from Tkinter import *
 import sqlite3
 
 #janela
